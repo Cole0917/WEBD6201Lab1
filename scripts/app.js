@@ -47,14 +47,35 @@ Date: 2023-02-12
         mainParagraph.setAttribute("id", "MainParagraph")
         mainParagraph.setAttribute("class", "mt-3 container")
 
+        let secondaryParagraph = document.createElement("h5")
+        secondaryParagraph.setAttribute("id", "SecondaryParagraph")
+        secondaryParagraph.setAttribute("class", "mt-3 container")
+
+        let tertiaryParagraph = document.createElement("h5")
+        secondaryParagraph.setAttribute("id", "TertiaryParagraph")
+        secondaryParagraph.setAttribute("class", "mt-3 container")
+
+        let quaternaryParagraph = document.createElement("h5")
+        secondaryParagraph.setAttribute("id", "TertiaryParagraph")
+        secondaryParagraph.setAttribute("class", "mt-3 container")
+
  
         let firstString = "Three Favorite Projects: "
+        let secondString = "1. JavaFX BMI Calculator"
+        let thirdString = "2. C++ Text Prompt Checker"
+        let fourthString = "3. C++ OOP Deck of Cards"
 
         mainParagraph.textContent = firstString
+        secondaryParagraph.textContent = secondString
+        tertiaryParagraph.textContent = thirdString
+        quaternaryParagraph.textContent = fourthString
         
 
         // add after(append)
         mainContent.appendChild(mainParagraph)
+        mainContent.appendChild(secondaryParagraph)
+        mainContent.appendChild(tertiaryParagraph)
+        mainContent.appendChild(quaternaryParagraph)
     }
 
     function DisplayServices() {
